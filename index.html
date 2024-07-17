@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A.K MEME Generator</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <h1 class="main-title">A.K MEME Generator</h1>
+  </header>
+
+  <main>
+    <button class="generator-button" onclick="generateMeme()">Generate Meme</button>
+
+    <div class="meme-container">
+      <h2 class="meme-title">Click the above button to get new memes</h2>
+      <img class="meme-img" src="https://i.redd.it/s3jhae0pgonb1.jpg" alt="testing">
+      <p class="author">Author: <span>{author}</span></p>
+      <button class="like-button" onclick="likeMeme()">Like</button>
+      <button class="share-button" onclick="shareMeme()">Share</button>
+    </div>
+
+    <div class="previous-meme-container">
+      <h3>Previous Meme</h3>
+      <div class="previous-meme">
+        <h4 class="previous-meme-title">No previous meme</h4>
+        <img class="previous-meme-img" src="" alt="No previous meme">
+        <p class="previous-author">Author: <span>{author}</span></p>
+      </div>
+    </div>
+
+    <div class="meme-history">
+      <h3>Meme History</h3>
+      <ul class="history-list"></ul>
+    </div>
+
+    <div class="liked-memes">
+      <h3>Liked Memes</h3>
+      <ul class="liked-list"></ul>
+    </div>
+  </main>
+
+  <footer>
+    <p>Made with ♥ by Arif</p>
+  </footer>
+</body>
+
+</html>
