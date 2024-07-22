@@ -1,7 +1,7 @@
 ﻿<h1>Meme-Generator-2.0<h1/>
 
 
-<h2>A.K Meme Generator<h2/>
+<h3>A.K Meme Generator<h3/>
 
 A modern, feature-rich meme generator website that allows users to generate new memes, view previous memes, keep a history of generated memes, and like their favorite memes. 
 
